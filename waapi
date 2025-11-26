@@ -1,0 +1,8 @@
+;
+include("./library/whatsva.php");
+$whatsva = Whatsva baru();
+$instance_key = A01A60B28E41C4C6B16F3477F370AB83;
+$jid = 6281523622821;
+$pesan = halo;
+$sendMessage = $whatsva->sendMessageText($instance_key,$jid,$message);
+
